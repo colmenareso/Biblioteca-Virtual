@@ -487,7 +487,7 @@ html{
     }
   
     .menu-link {
-      font-size: 3rem;
+      font-size: 225%;
     }
 
     .section-heading{
@@ -753,7 +753,7 @@ html{
     }
     .section-info-paragraph{
     padding-top: 1rem;
-    font-size: 115%;
+    font-size: 105%;
     width:85%;
     }
   }
@@ -764,14 +764,24 @@ html{
     }
   
     .sidebar {
-      width: 100%;
+      width: 50%;
       right: -100%;
     }
+
+    .change .line {
+     opacity: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   
     .change .hamburger-menu {
-      right: 38rem;
+      right: 30rem;
+      z-index: 200;
+      opacity: 1;
     }
-  
+
+     .menu-link {
+      font-size: 180%;
+    }
     .service {
       width: 30rem;
     }
@@ -786,30 +796,25 @@ html{
     }
   }
 
-   @media (max-width: 400px) {
-
-  .line {
-    background-color:#fff;
-  }  
+ @media (max-width: 400px) {
+  .sidebar{
+    width: 55%;
+    height: 100vh;
+    z-index: 200;
+    }
   .change .line {
-    background-color: rgba(255,255, 255, 0.8);
-    opacity: 1
+    opacity: 2;
+    background-color: rgba(0, 0, 0, 0.8);
   }
-  .hamburger-menu span {
-    position: absolute;
-    left: 5rem;
-    width: 7rem;
-    height: 4rem;
-    background-color: #e2b646;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    color: #fff;
-    font-family: "Baloo Da 2", serif;
-    font-size: 1.2rem;
-    letter-spacing: 0.1rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s;
-  }
+  .change .hamburger-menu {
+      right: 30rem;
+      opacity: 1;
+      z-index: 100;
+    }
+  .menu-link {
+      font-size: 165%;
+    }
+  .section-info-paragraph{
+    font-size: 125%;
+    }
    }
