@@ -92,6 +92,7 @@ html{
     width: 15rem;
     height: 15rem;
     position: absolute;
+    align-items: center;
     top: 3rem;
     left: 5rem;
     z-index: 200;
@@ -784,3 +785,31 @@ html{
     width:85%;
     }
   }
+
+   @media (max-width: 400px) {
+
+  .line {
+    background-color:#fff;
+  }  
+  .change .line {
+    background-color: rgba(255,255, 255, 0.8);
+    opacity: 1
+  }
+  .hamburger-menu span {
+    position: absolute;
+    left: 5rem;
+    width: 7rem;
+    height: 4rem;
+    background-color: #e2b646;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    font-family: "Baloo Da 2", serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+  }
+   }
