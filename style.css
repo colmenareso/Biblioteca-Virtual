@@ -825,6 +825,10 @@ html{
     height: 100vh;
     z-index: 200;
     }
+  .hamburger-menu{
+    right:10rem;
+  }
+
   .change .line {
     opacity: 2;
     background-color: rgba(0, 0, 0, 0.8);
@@ -835,7 +839,7 @@ html{
       z-index: 300;
     }
   .menu-link {
-      font-size: 165%;
+      font-size: 150%;
     }
   .header{
     width:115%
@@ -856,7 +860,7 @@ html{
     font-size: 105%;
     }
     .menu-link{
-    font-size: 135%;
+    font-size: 15%;
 }
   }
  
