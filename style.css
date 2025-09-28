@@ -818,3 +818,45 @@ html{
     font-size: 125%;
     }
    }
+
+    @media (max-width: 300px) {
+  .sidebar{
+    width: 55%;
+    height: 100vh;
+    z-index: 200;
+    }
+  .change .line {
+    opacity: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+  .change .hamburger-menu {
+      right: 19rem;
+      opacity: 1;
+      z-index: 300;
+    }
+  .menu-link {
+      font-size: 165%;
+    }
+  .header{
+    width:115%
+    }
+  .materia-organica{
+    width: 115%;
+    }
+  .bioestratigrafia-1{
+    width: 115%;
+    }
+  .bioestratigrafia-2{
+    width: 115%;
+    }
+  .section-info{
+    width: 115%;
+    }
+  .section-info-paragraph{
+    font-size: 105%;
+    }
+    .menu-link{
+    font-size: 135%;
+}
+  }
+ 
