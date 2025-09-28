@@ -774,7 +774,7 @@ html{
   }
   
     .change .hamburger-menu {
-      right: 30rem;
+      right: 20rem;
       z-index: 200;
       opacity: 1;
     }
@@ -819,7 +819,7 @@ html{
     }
    }
 
-    @media (max-width: 300px) {
+    @media (max-width: 380px) {
   .sidebar{
     width: 55%;
     height: 100vh;
@@ -834,7 +834,7 @@ html{
     background-color: rgba(0, 0, 0, 0.8);
     }
   .change .hamburger-menu {
-      right: 19rem;
+      right: 25rem;
       opacity: 1;
       z-index: 300;
     }
